@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <section class="form-registration">
+        <div class="wrapper">
+            <div class="header-section">
+                <h1 class="header-title">REGISTRATION FORM</h1>
+                <div class="user">
+                    <form class="form-one" action="https://echo.htmlacademy.ru" method="post" autocomplete="off">
+                        <div class="box">
+                            <label class="form-label" for="user-name">Firs Name</label>
+                            <input class="form-input" type="text" name="user_name"  id="user-name" required>
+                        </div>
+                        <div class="box">
+                            <label class="form-label" for="user-last-name">Last Name</label>
+                            <input class="form-input" type="text" name="user_last_name" id="user-last-name" required>
+                        </div>
+                        <div class="box">
+                            <label class="form-label" for="user-password">Password</label>
+                            <input class="form-input" type="password" name="user_password" id="user-password" min="8"
+                                required>
+                        </div>
+                        <div class="box">
+                            <label class="form-label" class="lable-one" for="user-select">Cender</label>
+                            <select name="user_select" id="user-select">
+                                <option value="Pol">Pol</option>
+                                <option value="Devor">Devor</option>
+                                <option value="Patalok">Patalok</option>
+                                <option value="Lyustra">Lyustra</option>
+                            </select>
+                        </div>
+                        <div class="box">
+                            <label class="form-label" for="user-email">Email Addres</label>
+                            <input class="form-input" type="email" name="user_email" id="user-email" required>
+                        </div>
+                        <div class="box">
+                            <label class="form-label" for="user-phone-number">Phone Number</label>
+                            <input class="form-input" type="tel" name="user_tel" id="user-phone-number" value="+998"
+                                min="9" max="13" required>
+                        </div>
+                        <div class="box">
+                            <label class="form-label" for="user-addres">Address</label>
+                            <textarea class="textarea-one" name="user-address" id="user-address" cols="30"
+                            rows="10"></textarea>
+                        </div>
+                        <div class="box">
+                            <label class="form-label" for="user-postal-code">Postal Code</label>
+                            <input class="form-input" type="password" name="user_postal_code" id="user-postal-code"
+                                min="8" required>
+                        </div>
+                        <div class="box">
+                            <button class="box-btn" type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
